@@ -1,6 +1,16 @@
-body{
-  padding: 0;
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+
+:root {
+    --Background-color: #ffcdd2;
+    --Second-color: #ee534f;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar {
@@ -29,4 +39,60 @@ body{
 
 .nav-bar .drop-down img{
   width: 25px;
+}
+
+@media(min-width:1200px){
+
+  .nav-bar .logo {
+      width: 10%;
+  }
+
+  .nav-bar .logo img {
+    width: 70%;
+  }
+
+  .links, .search, .heart, .sign{
+      display: block;
+  }
+  
+  .links{
+      width: 65%;
+  }
+
+  .links ul{
+      list-style: none;
+  }
+
+  .links ul li{
+      display: inline-block;
+      margin: 0 10px;
+      padding:0 10px;
+      font-weight: 500;
+  }
+
+  .links ul li:hover{
+      color: var(--Second-color);
+  }
+
+  .search input{
+      padding: 10px;
+      border: 1px solid #D8D8D8;
+      border-radius: 20px;
+  }
+
+  .nav-bar .drop-down{
+    display: none;
+  }
+
+  .nav-bar .sign button{
+      padding: 10px 18px;
+      color: #fff;
+      background-color: var(--Second-color);
+      border: none;
+      border-radius: 20px;
+      font-size: 15px;
+      display: block;
+      margin: 0 10px;
+  }
+  
 }
