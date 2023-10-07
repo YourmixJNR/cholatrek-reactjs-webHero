@@ -13,3 +13,20 @@ body{
   background: #fff;
   z-index: 2;
 }
+
+.nav-bar .logo{
+  width: 85%;
+}
+
+.links, .search, .sign{
+  display: none;
+}
+
+.nav-bar .drop-down{
+  text-align: center;
+  width: 15%;
+}
+
+.nav-bar .drop-down img{
+  width: 25px;
+}
