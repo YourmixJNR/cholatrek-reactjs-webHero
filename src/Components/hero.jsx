@@ -2,12 +2,13 @@ import '../App.css'
 
 const Hero = () => {
     return(
-        <hero>
+        <div className="hero">
 
             <div>
                 <img 
-                src="hero.webp" 
-                alt="Hero Image" 
+                    src="./images/hero.webp" 
+                    alt="Hero Image" 
+                    className='hero-img'
                 />
             </div>
 
@@ -18,7 +19,7 @@ const Hero = () => {
                 <button>Shop Now</button>
             </div>
 
-        </hero>
+        </div>
     )
 }
 

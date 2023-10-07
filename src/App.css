@@ -41,6 +41,11 @@
   width: 25px;
 }
 
+.hero{
+  background-color: var(--Background-color);
+  padding:6em 2em 2em 2em;
+}
+
 @media(min-width:1200px){
 
   .nav-bar .logo {

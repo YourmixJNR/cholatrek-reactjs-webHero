@@ -8,9 +8,9 @@ const Header = () => {
 
                 <div className='logo'>
                     <img
-                    src="logo.webp"
-                    alt="Website Logo"
-                    className="logo"
+                        src="logo.webp"
+                        alt="Website Logo"
+                        className="logo"
                     />
                 </div>
 
@@ -26,8 +26,8 @@ const Header = () => {
 
                 <div className='search'>
                     <input
-                    type="text"
-                    placeholder='Search Product'
+                        type="text"
+                        placeholder='Search Product'
                     />
                 </div>
 
