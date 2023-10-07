@@ -23,7 +23,24 @@ const Header = () => {
                     <li>Pages</li>
                 </ul>
             </div>
-            
+
+            <div className='search'>
+                <input
+                type="text"
+                placeholder='Search Product'
+                />
+            </div>
+
+            <div className="sign">
+                <button>Sign In</button>
+            </div>
+
+            <div className='drop-down'>
+                <img
+                src="./images/drop-down.svg"
+                alt="" />
+            </div>
+
         </header>
     );
 }
