@@ -2,6 +2,8 @@ import '../App.css'
 
 const Button = ({name}) => {
     return (
-        <button>{name}</button>
+        <button className='default-btn'>{name}</button>
     )
 }
+
+export default Button;

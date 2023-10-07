@@ -1,4 +1,5 @@
 import '../App.css'
+import Button from './button';
 
 const Header = () => {
     return (
@@ -32,7 +33,7 @@ const Header = () => {
                 </div>
 
                 <div className="sign">
-                    <button>Sign In</button>
+                    <Button name="Sign In" />
                 </div>
 
                 <div className='drop-down'>
