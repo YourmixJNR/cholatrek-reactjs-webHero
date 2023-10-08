@@ -4,15 +4,14 @@ const Hero = () => {
     return(
         <div className="hero">
 
-            <div>
+            <div className='hero-img'>
                 <img 
                     src="./images/hero.webp" 
                     alt="Hero Image" 
-                    className='hero-img'
                 />
             </div>
 
-            <div className='hero-word'>
+            <div className="hero-words">
                 <i>60% Discount</i>
                 <h1>Winter Collecton</h1>
                 <em>Best Cloth Collection By 2020!</em>
