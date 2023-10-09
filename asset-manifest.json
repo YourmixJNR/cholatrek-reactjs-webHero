@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cholatrek-reactjs-webHero/static/css/main.dc0c86d4.css",
+    "main.css": "/cholatrek-reactjs-webHero/static/css/main.bda34fe2.css",
     "main.js": "/cholatrek-reactjs-webHero/static/js/main.a9b0793e.js",
     "static/js/787.a7003dfb.chunk.js": "/cholatrek-reactjs-webHero/static/js/787.a7003dfb.chunk.js",
     "index.html": "/cholatrek-reactjs-webHero/index.html",
-    "main.dc0c86d4.css.map": "/cholatrek-reactjs-webHero/static/css/main.dc0c86d4.css.map",
+    "main.bda34fe2.css.map": "/cholatrek-reactjs-webHero/static/css/main.bda34fe2.css.map",
     "main.a9b0793e.js.map": "/cholatrek-reactjs-webHero/static/js/main.a9b0793e.js.map",
     "787.a7003dfb.chunk.js.map": "/cholatrek-reactjs-webHero/static/js/787.a7003dfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc0c86d4.css",
+    "static/css/main.bda34fe2.css",
     "static/js/main.a9b0793e.js"
   ]
 }
